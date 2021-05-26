@@ -2,7 +2,7 @@ import Head from "next/head";
 
 const About = () => {
   return (
-    <Fragment>
+    <>
       <Head>
         <title>Ninja List | Home</title>
         <meta name="keywords" content="ninjas" />
@@ -25,7 +25,7 @@ const About = () => {
           minus, nobis nesciunt aut eos voluptate. Sit aspernatur eum deserunt.
         </p>
       </div>
-    </Fragment>
+    </>
   );
 };
 
